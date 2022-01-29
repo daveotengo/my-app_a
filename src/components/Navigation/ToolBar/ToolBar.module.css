@@ -1,0 +1,29 @@
+.ToolBar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #703B09;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.ToolBar nav {
+  height: 100%;
+}
+/* css modules converts this into a different class from the other Logo  */
+.Logo {
+  height: 80%;
+}
+
+/* small screens only */
+@media (max-width: 499px){
+  .DesktopOnly {
+    display: none;
+  }
+}
